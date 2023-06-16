@@ -37,7 +37,7 @@ const assessmentServiceBaseUrl = process.env.sunbird_assessment_service_base_url
 
 const learnerServiceLocalBaseUrl = process.env.sunbird_learner_service_local_base_url
   ? process.env.sunbird_learner_service_local_base_url
-  : 'http://learner-service:9000'
+  : 'http://userorg-service:9000'
 
 const searchServiceBaseUrl = process.env.sunbird_search_service_api_base_url || 'https://qa.ekstep.in/api/search'
 const dialRepoBaseUrl = process.env.sunbird_dial_repo_api_base_url || 'https://qa.ekstep.in/api'
